@@ -1,0 +1,54 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	margin: 20px auto;
+    background-color: lightskyblue;
+    background: repeating-linear-gradient( -45deg, rgb(154, 237, 240) 0px, rgb(221, 240, 240) 11px, rgb(182, 238, 235) 20px);
+}
+
+h1 {
+    background-color: white;
+    font-family: 'Gloock', serif;
+}
+
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+.button {
+	background-color: salmon;
+	border:  1px solid salmon;
+	border-radius: 50px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+input {
+	appearance: none;
+	margin: 0;
+}
+
+.button:hover {
+	background-color: #fff;
+	border:  1px solid salmon;
+	color: #333;
+}
+
+.photo {
+	max-width: 600px;
+	width: 100%;
+    border: 20px dotted lightseagreen;
+    box-shadow: 0 0 0 0.3rem skyblue;
+    background-color: #fff;
+}
+
+body {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🐱</text></svg>")
+    16 0, auto;
+}
